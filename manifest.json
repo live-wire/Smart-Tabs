@@ -1,0 +1,13 @@
+{
+	"manifest_version":2,
+	"name":"Easy Tabs",
+	"description":"first prototype for too many tabs",
+	"version":"1.1",
+	"background":{
+	"page":"background.html"},
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"prototype1.html"
+	},
+	"permissions":["tabs","clipboardWrite","clipboardRead","<all_urls>"]
+}
